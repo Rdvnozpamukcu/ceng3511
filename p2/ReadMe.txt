@@ -1,3 +1,4 @@
+Rıdvan Özpamukçu(160709019) & Nida Kapmaz (160709014)
 Solving CSPs
 
 OR-Tools provides two solvers for constraint programming:
