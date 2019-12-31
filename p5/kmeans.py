@@ -53,4 +53,5 @@ for k in range(K):
 
 plt.xlabel('Spend')
 plt.ylabel('Income')
+plt.savefig("plot.png")
 plt.show()
