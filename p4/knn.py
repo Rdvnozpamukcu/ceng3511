@@ -125,4 +125,5 @@ print('Test Mean Accuracy: %.3f%%' % (correct_predict/len(test_dataset)))
 
 conf_mat = confusion_matrix(np.array(reals), np.array(predicts))
 ax = sns.heatmap(conf_mat, linewidth=0.5)
+plt.savefig("plot.png")
 plt.show()
